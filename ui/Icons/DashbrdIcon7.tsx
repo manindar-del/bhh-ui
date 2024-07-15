@@ -1,0 +1,14 @@
+import { CustomIconProps } from '@/interface/icons.interface'
+
+const DashbrdIcon7 = ({
+    IconColor,
+    IconWidth,
+    IconHeight
+}: CustomIconProps) => {
+    return (
+        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width={IconWidth || "50"}
+            height={IconHeight || "50"} x="0" y="0" viewBox="0 0 59 58" xmlSpace="preserve" className=""><g><g fill="none" fillRule="evenodd"><path fill={IconColor || "#f98c1e"} fillRule="nonzero" d="M19.18 2.13v3.34c0 4.49-.33 8.19-1.44 11.31v.01l-.09.12-15.22 5.16c-.29-4.87 1.85-7.72 4.29-9.38 1.86-1.27 2.36-4.21 2.46-5.77.08-1.2 0-2.81 0-4.79z" opacity="1" data-original={IconColor || "#f98c1e"} className="" /><path stroke="#000" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M23.171 48.829c-4.316-4.327-4.316-11.33 0-15.658M26 46a7.072 7.072 0 0 1 0-10" fill="" opacity="1" /><g fillRule="nonzero"><path fill={IconColor || "#f98c1e"} d="M39.45 17.52c-5.69-1.8-8.99-.83-10.62.11a.01.01 0 0 0-.01.01c3.4-.35 6.01 2.76 7.49 5.42 2.76 4.98 3.37 10.85 2.81 16.44a41.9 41.9 0 0 1-2.67 10.97 12.157 12.157 0 0 1-4.81 6.32c-2.78 1.62-6.16 1.39-9.16.62a37.42 37.42 0 0 1-7.42-2.89C.58 47.29-2.66 30.96 2.43 22.07a11.662 11.662 0 0 1 6.41-5.44 12.72 12.72 0 0 1 5.33-.69c1.209.113 2.387.442 3.48.97l.09-.12v-.01c2.06-2.79 9.34-11.06 20.94-7.26 1.117.369 2.203.824 3.25 1.36z" opacity="1" data-original={IconColor || "#f98c1e"} className="" /><path fill={IconColor || "#f98c1e"} d="M42.64 14.92c-.66 1.81-2.05 2.97-3.12 2.62a.09.09 0 0 1-.05-.01c-.01 0-.01-.01-.02-.01-1.05-.41-1.37-2.21-.69-4.03.68-1.84 2.1-3.01 3.17-2.61s1.39 2.21.71 4.04z" opacity="1" data-original={IconColor || "#f98c1e"} /><ellipse cx="14.18" cy="2.13" fill={IconColor || "#f98c1e"} rx="5" ry="2.07" opacity="1" data-original={IconColor || "#f98c1e"} /><path fill={IconColor || "#f98c1e"} d="M25.16 26.75a1 1 0 0 1-.961-.725c-.02-.069-2.047-6.939-7.236-9.455a1 1 0 0 1 .873-1.8c6 2.912 8.2 10.389 8.286 10.706a1 1 0 0 1-.962 1.274z" opacity="1" data-original={IconColor || "#f98c1e"} className="" /><path fill="#ffffff" d="M4.227 31h-.072a1 1 0 0 1-.927-1.068c.376-5.3 2.829-9.216 6.563-10.463a1.001 1.001 0 1 1 .633 1.9c-2.941.982-4.885 4.236-5.2 8.706a1 1 0 0 1-.997.925z" opacity="1" data-original="#ffffff" className="" /><path fill={IconColor || "#f98c1e"} d="M33 39a1 1 0 0 1-.472-1.882L46.445 29.7l-4.213-5.06a1 1 0 0 1 .168-1.44l12-9a1 1 0 1 1 1.2 1.6l-11.158 8.368 4.326 5.192a1 1 0 0 1-.3 1.522l-15 8A1 1 0 0 1 33 39zM44.829 49a1 1 0 0 1-.291-.043l-13.771-4.191a1 1 0 0 1 .582-1.913l12.6 3.833.487-5.362a1 1 0 0 1 1.138-.9l12.573 1.8a1 1 0 1 1-.284 1.979l-11.53-1.647-.5 5.537a1 1 0 0 1-1 .91z" opacity="1" data-original={IconColor || "#f98c1e"} className="" /></g></g></g></svg>
+    )
+}
+
+export default DashbrdIcon7
